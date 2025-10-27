@@ -93,7 +93,7 @@
 - 프론트엔드 개발 언어: TypeScript (React + Konva.js)
 - 실시간 통신: WebSocket (STOMP Protocol)
 - 충돌 해결 알고리즘: CRDT (Yjs)
-- 인증 및 보안: JWT (Access Token), OAuth2 (Google 로그인)
+- 인증 및 보안: JWT (Access Token), OAuth2
 - 빌드 및 배포: Gradle, GitHub Actions, Docker
 - 협업 도구: GitHub (버전 관리), Notion (기획), Figma (UI/UX)
 - 테스트 및 문서화: JUnit, Swagger (OpenAPI 자동 문서화)
