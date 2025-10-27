@@ -57,15 +57,23 @@
   - OpenAPI 스펙 기반 자동 명세 생성
 
 ### 시스템 아키텍처
+
 <img width="1000" height="560" alt="image" src="https://github.com/user-attachments/assets/55d044fd-9104-4a78-aeeb-d04eee4d721e" />
 
 ### UI/UX
-<img width="1624" height="1056" alt="image (12)" src="https://github.com/user-attachments/assets/70336eb8-653e-41c9-8eb0-574adb992272" />
-<img width="612" height="399" alt="image (14)" src="https://github.com/user-attachments/assets/6895714d-8e60-4cce-b74a-7a5b855b0e35" />
-<img width="612" height="399" alt="image (16)" src="https://github.com/user-attachments/assets/454306fe-952b-493c-aa8f-af5345a33cc6" />
-<img width="612" height="399" alt="image (13)" src="https://github.com/user-attachments/assets/e4e26401-ba2e-416d-acbc-1d068ab5b192" />
 
+<table>
+  <tr>
+    <td><img width="600" src="https://github.com/user-attachments/assets/a5b6d752-c632-40fe-a1f4-723525dfd609" /></td>
+    <td><img width="600" src="https://github.com/user-attachments/assets/64a00d05-3f08-44bc-a8e8-2a8db2958af7" /></td>
+  </tr>
+  <tr>
+    <td><img width="600" src="https://github.com/user-attachments/assets/aee168cb-c204-43e3-a6f9-d1782b911822" /></td>
+    <td><img width="600" src="https://github.com/user-attachments/assets/28bb92c4-0a02-4faf-93e1-63952b323305" /></td>
+  </tr>
+</table>
 
+</br>
 
 ### 기대 효과
 - 실시간 협업 충돌 방지 및 안정성 확보
