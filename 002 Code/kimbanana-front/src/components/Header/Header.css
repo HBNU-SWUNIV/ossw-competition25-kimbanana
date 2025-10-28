@@ -1,0 +1,196 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid #D4D1D1;
+    height: 60px;
+}
+
+/* variant별 배경 처리 */
+.header-main {
+    background: linear-gradient(to right, #ffffff, #F6DE55);
+}
+
+.header-workspace {
+    background-color: #ffffff;
+}
+
+.header-history {
+    background-color: #ffffff;
+}
+
+/* 로고 영역 */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 35px;
+}
+
+/* 제목 입력창 */
+.title-input {
+    flex: 1;
+    margin: 0 20px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background: transparent;
+    color: #555;
+    outline: none;
+}
+
+.title-input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+}
+
+/* 메인 페이지용 버튼 */
+.header-buttons {
+    display: flex;
+    gap: 3px;
+}
+
+.header-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.header-btn:hover {
+    opacity: 0.8;
+}
+
+.fullscreen-btn img {
+    height: 39px;
+    width: 100%;
+}
+
+.history-btn img,
+.save-btn img,
+.share-btn img {
+    width: 39px;
+    height: 39px;
+}
+
+.download-btn img,
+.restore-apply-btn img {
+    width: 100px;
+}
+
+/* 히스토리용 좌측 영역 */
+.history-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.back-arrow {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.header-title {
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* 인증 관련 스타일 */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn,
+.register-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: #30270C;
+}
+
+.login-btn:hover {
+    background-color: #30270C;
+    color: white;
+}
+
+.register-btn {
+    background-color: #FFE44B;
+    color: #30270C;
+}
+
+.register-btn:hover {
+    background-color: #D2A742;
+}
+
+.user-profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.profile-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FFE44B;
+    color: #30270C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.profile-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.user-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #30270C;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.logout-btn:hover {
+    color: #30270C;
+}
+

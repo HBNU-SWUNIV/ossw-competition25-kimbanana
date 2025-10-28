@@ -1,0 +1,18 @@
+.whiteboard-container {
+    width: 1000px;
+    height: 563px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.02);
+    position: relative;
+}
+
+.whiteboard-container:focus {
+    outline: none;
+}
+
+.whiteboard-container input {
+    z-index: 10;
+}

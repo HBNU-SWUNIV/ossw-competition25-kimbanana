@@ -1,0 +1,14 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: 'Pretendard', sans-serif;
+}
+
+/* 브라우저 확장 프로그램 오류 방지 */
+* {
+  pointer-events: auto !important;
+}
